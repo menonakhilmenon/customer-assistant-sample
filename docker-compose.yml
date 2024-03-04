@@ -6,3 +6,13 @@ services:
       - "6379:6379"
     volumes:
       - redis-data-volume:/data
+  # backend:
+  #   image: customer-assistant-be
+  #   ports:
+  #     - "8087:8087"
+  # frontend:
+  #   image: customer-assistant-fe
+  #   ports:
+  #     - "8070:8070"
+volumes:
+  redis-data-volume:

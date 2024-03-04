@@ -1,2 +1,6 @@
 # customer-assistant-sample
-A sample application that relies on OpenAI and langchain to help customers get recommendations on product based on their purchase history
+A sample project which helps customers out by making 
+
+# Usage
+
+Rename .env.dist to .env and populate the fields as commented in the file

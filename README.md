@@ -9,6 +9,15 @@ For customers :
 1. Provide search results which would best suit their purpose (semantic search)
 2. Based on the items customers have chosen, provide recommendation to them for other products that would go along with the items in the cart
 
+# Screenshots:
+
+## Semantic Search :
+<img width="540" alt="image" src="https://github.com/menonakhilmenon/customer-assistant-sample/assets/28900644/f15a97d3-806b-4116-a3a4-92919b36de74">
+
+## Recommendation :
+<img width="540" alt="image" src="https://github.com/menonakhilmenon/customer-assistant-sample/assets/28900644/b926310b-3b41-4875-8208-968c3620d697">
+
+
 # Usage
 
 1. Make sure to have docker compose and node installed in the system

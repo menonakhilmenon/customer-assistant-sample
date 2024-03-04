@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "entrypoint.js",
   "type": "module",
   "scripts": {
     "startDev": "nodemon entrypoint.js"

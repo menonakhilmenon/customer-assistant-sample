@@ -31,7 +31,7 @@ const MAIN_PROMPT = new PromptTemplate({
 const PARSER = StructuredOutputParser.fromZodSchema(
     z.object({
         item: z.string().describe("item which would go along with the cart (make sure this is available in the shop)"),
-        reason: z.string().describe("why the item was chosen"),
+        reason: z.string().describe("why the item was chosen explain in a friendly manner"),
         confidence: z.string().describe("how confident you are with recommending this item, should be either HIGH or LOW"),
     })
 );
